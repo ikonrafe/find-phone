@@ -1,7 +1,9 @@
 import requests
-
-def locate_phone(AIzaSyAuUqm6atdaFjkBmo3k9pge86qH31am1FU,62_089653028380):
-    url = f'https://www.googleapis.com/geolocation/v1/geolocate?key={AIzaSyAuUqm6atdaFjkBmo3k9pge86qH31am1FU}'
+api_key = AIzaSyAuUqm6atdaFjkBmo3k9pge86qH31am1FU
+phone_number = 62 896-5302-8380
+locate_phone(api_key, phone_number)
+def locate_phone(api_key,phone_number):
+    url = f'https://www.googleapis.com/geolocation/v1/geolocate?key={api_key}'
     headers = {'content-type': 'application/json'}
     data = {'considerIp': 'false',
             'wifiAccessPoints': [],
@@ -16,6 +18,6 @@ def locate_phone(AIzaSyAuUqm6atdaFjkBmo3k9pge86qH31am1FU,62_089653028380):
         print('Unable to locate phone')
 
 # contoh penggunaan
-api_key = 'YOUR_API_KEY'
-phone_number = '555-1234'
+api_key = AIzaSyAuUqm6atdaFjkBmo3k9pge86qH31am1FU
+phone_number = 62 896-5302-8380
 locate_phone(api_key, phone_number)
