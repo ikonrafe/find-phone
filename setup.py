@@ -1,7 +1,6 @@
 import requests
 api_key = AIzaSyAuUqm6atdaFjkBmo3k9pge86qH31am1FU
-phone_number = 62 896-5302-8380
-locate_phone(api_key, phone_number)
+phone_number = 6289653028380
 def locate_phone(api_key,phone_number):
     url = f'https://www.googleapis.com/geolocation/v1/geolocate?key={api_key}'
     headers = {'content-type': 'application/json'}
