@@ -5,7 +5,7 @@ def locate_phone(AIzaSyB8EqyDTxOQ3aLGmkZ-zn27bGk3YNQq5kM,+6289653028380):
     headers = {'content-type': 'application/json'}
     data = {'considerIp': 'false',
             'wifiAccessPoints': [],
-            'cellTowers': [{'cellId': 42, 'locationAreaCode': 021, 'mobileCountryCode': 510, 'mobileNetworkCode': 11}]}
+            'cellTowers': [{'cellId': 42, 'locationAreaCode': 21, 'mobileCountryCode': 510, 'mobileNetworkCode': 11}]}
 
     response = requests.post(url, headers=headers, json=data)
     if response.status_code == 200:
