@@ -1,7 +1,7 @@
 import requests
 
-def locate_phone(AIzaSyB8EqyDTxOQ3aLGmkZ-zn27bGk3YNQq5kM,+6289653028380):
-    url = f'https://www.googleapis.com/geolocation/v1/geolocate?key={AIzaSyB8EqyDTxOQ3aLGmkZ-zn27bGk3YNQq5kM}'
+def locate_phone(AIzaSyAuUqm6atdaFjkBmo3k9pge86qH31am1FU,+6289653028380):
+    url = f'https://www.googleapis.com/geolocation/v1/geolocate?key={AIzaSyAuUqm6atdaFjkBmo3k9pge86qH31am1FU}'
     headers = {'content-type': 'application/json'}
     data = {'considerIp': 'false',
             'wifiAccessPoints': [],
