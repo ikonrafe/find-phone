@@ -1,6 +1,6 @@
 import requests
 
-def locate_phone( AIzaSyB8EqyDTxOQ3aLGmkZ-zn27bGk3YNQq5kM ,089653028380):
+def locate_phone(api_key,089653028380):
     url = f'https://www.googleapis.com/geolocation/v1/geolocate?key={AIzaSyB8EqyDTxOQ3aLGmkZ-zn27bGk3YNQq5kM}'
     headers = {'content-type': 'application/json'}
     data = {'considerIp': 'false',
