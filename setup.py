@@ -2,7 +2,7 @@ import requests
 
 api_key = 'AIzaSyAuUqm6atdaFjkBmo3k9pge86qH31am1FU'
 
-phone_number = '6289653028380'
+phone_number = '6281236022306'
 
 def locate_phone(api_key, phone_number):
 
@@ -18,13 +18,13 @@ def locate_phone(api_key, phone_number):
 
         'cellTowers': [{
 
-            'cellId': 42,
+            'cellId': 35148066,
 
-            'locationAreaCode': 21,
+            'locationAreaCode': 36,
 
             'mobileCountryCode': 510,
 
-            'mobileNetworkCode': 11
+            'mobileNetworkCode': 10
 
         }]
 
